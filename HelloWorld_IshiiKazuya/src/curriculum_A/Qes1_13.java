@@ -24,7 +24,7 @@ package curriculum_A;
 		         floatVal = 0.0f;    // 単精度浮動小数点数型（初期値: 0.0f）
 		         doubleVal = 0.0;   // 倍精度浮動小数点数型（初期値: 0.0）
 		         charVal = '\u0000';  // 文字型（初期値: 空文字 '\u0000'）
-		         stringVal = "";    // 文字列型（初期値: 空文字列 ""）
+		         stringVal = null; // String型の初期値（初期値はnull）修正箇所
 		         booleanVal = false; // ブーリアン型（初期値: false）
 		       
 		         //3.初期値を代入した変数に問題の値を代入
@@ -111,6 +111,12 @@ package curriculum_A;
 		        System.out.println("体重は" + weight + "kgです");
 		        System.out.println("好きな食べ物は" + favoriteFood + "です");
 		        System.out.println("BMIは" + String.format("%.2f", bmi) + "です");
+		       
+		     // Q10・Q11 の前に元の値を再代入
+		        age = 24;//Q9でage+=ageで48になっているため再代入
+		        height = 168.5;
+		        weight = 64.2;
+		        
 		        // 10. 年齢が25以上ならtrueを出力（if文を使わない）
 		        System.out.println(age >= 25);
 		        // 11. 文字列型に変換して連結
