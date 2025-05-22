@@ -19,22 +19,3 @@ public class Qes5 {
         }
     }
 }
-//public class Qes5 {
-//    public static void main(String[] args) {
-//        int count = 1;
-//
-//        for (int i = 0; i < 10; i++) { // 10行
-//            for (int j = 0; j < 20; j++) { // 各行20列
-//                int left = j + 1;
-//                int right = count++;
-//
-//                System.out.printf("Q%02d = %03d", left, right);
-//
-//                if (j != 19) {
-//                    System.out.print(" || ");
-//                }
-//            }
-//            System.out.println(); // 改行
-//        }
-//    }
-//}
