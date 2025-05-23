@@ -49,14 +49,14 @@ public class Curriculum_New_1_18 {
 		double sum = 0;
 		//配列 numbers の各要素を1つずつ取り出して、num に代入します。
 		for (int num : numbers) {
-			//各要素の値を sum に加算していきます。
+			//各要素の値を sum に加算。
 			sum += num;
 		}
 		//合計 sum を、要素数 numbers.length で割って平均値を求めます。
 		double average = sum / numbers.length;
 		//System.out.println(average);
 		System.out.println(average);
-		//求めた平均値をメソッドの呼び出し元に返します
+		//求めた平均値をメソッドの呼び出し元に返す
 		return average;
 	}
 
@@ -82,7 +82,7 @@ public class Curriculum_New_1_18 {
 		// Q4
 		add(3.5, 2.5);
 
-		// Q5　	指定した回数分　generateRandonNumber(回数) ランダムな1〜100の整数を生成し、それらを配列に格納して返すメソッドです。
+		// Q5　	指定した回数分　generateRandonNumber(回数) ランダムな1〜100の整数を生成し、それらを配列に格納して返す。
 		int[] randomNumbers = generateRandomNumbers(5);
 
 		// Q6
