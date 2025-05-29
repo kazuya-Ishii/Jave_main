@@ -7,24 +7,21 @@ public class Curriculum_New_1_18 {
 	public static void printMessage(String text, int number) {
 		System.out.println("Hello " + text + " " + number);
 	}
-
-	// Q2　mutiplyからメソッド呼び出して　3 × 4 の結果を出力　
-	public static void multiply(int a, int b) {
-		System.out.println(a * b);
-	}
-
+	   // Q2：int 2つの掛け算
+    public static void multiply(int a, int b) {
+        System.out.println (a * b);
+    }
+    // Q4：double 2つの和算（Q2のオーバーロード）
+    public static void multiply(double a, double b) {
+        System.out.println (a + b);
+    }
+    
 	// Q3　メッソドに格納されている配列 {1,2,3,4,5} を1行ずつ出力。
 	public static void printArray(int[] array) {
 		for (int value : array) {
 			System.out.println(value);
 		}
 	}
-
-	// Q4　3.5 + 2.5 を計算して出力。　double は 小数を扱うためのデータ型 
-	public static void add(double a, double b) {
-		System.out.println(a + b);
-	}
-
 	// Q5　1〜100のランダムな整数5つを生成して出力。　
 	public static int[] generateRandomNumbers(int count) {
 		 // ランダムな数を生成するための Random オブジェクトを作成
@@ -74,13 +71,11 @@ public class Curriculum_New_1_18 {
 
 		// Q2
 		multiply(3, 4);
-
+		// Q4 オーバーロード 実行（小数の加算）
+	    multiply(3.5, 2.5);
 		// Q3
 		int[] sampleArray = {1, 2, 3, 4, 5};
 		printArray(sampleArray);
-
-		// Q4
-		add(3.5, 2.5);
 
 		// Q5　	指定した回数分　generateRandonNumber(回数) ランダムな1〜100の整数を生成し、それらを配列に格納して返す。
 		int[] randomNumbers = generateRandomNumbers(5);
