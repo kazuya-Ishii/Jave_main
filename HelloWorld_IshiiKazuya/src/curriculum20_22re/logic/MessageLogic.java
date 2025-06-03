@@ -1,4 +1,4 @@
-package curriculum20_22.logic.mainapp;
+package curriculum20_22re.logic;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

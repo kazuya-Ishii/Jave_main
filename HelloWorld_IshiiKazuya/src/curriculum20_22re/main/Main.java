@@ -1,4 +1,6 @@
-package curriculum20_22.logic.mainapp;
+package curriculum20_22re.main;
+
+import curriculum20_22re.logic.MessageLogic;
 
 public class Main {
     public static void main(String[] args) {
