@@ -1,7 +1,9 @@
 package curriculum_25.character;
-
+//CharacterBaseクラスを継承（extends)
 public class Hero extends CharacterBase {
+	//継承により、getName()やgetHp()などのメソッドを使える
     public Hero(String name) {
+    	//super(name) は親クラス
         super(name);
     }
 

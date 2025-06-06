@@ -40,13 +40,14 @@ public class CharacterBase {
     }
 
     // Getter & Setter
+    //フィールドの値を取得
     public String getName() { return name; }
     public int getHp() { return hp; }
     public int getMp() { return mp; }
     public int getAttack() { return attack; }
     public int getSpeed() { return speed; }
     public int getDefense() { return defense; }
-
+    //フィールドに値を設定
     public void setName(String name) { this.name = name; }
     public void setHp(int hp) { this.hp = hp; }
     public void setMp(int mp) { this.mp = mp; }
