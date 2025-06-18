@@ -11,7 +11,7 @@ import curriculum_28_29.data.Prefecture;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+//都道府県のデータ
         String[] rawData = {
             "北海道:札幌市:83424",
             "青森県:青森市:9646",
